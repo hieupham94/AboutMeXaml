@@ -71,7 +71,6 @@
           <Label Text="1" />
           <Label Text="1" />
           <Label Text="1" />
-          <Label Text="1" />
         </StackLayout.Children>
       </StackLayout>
     </ScrollView>
