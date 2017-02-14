@@ -3,8 +3,77 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:AboutMeXaml"
              x:Class="AboutMeXaml.MainPage">
-  <Label Text="Welcome to Xamarin Forms!"
-           VerticalOptions="Center"
-           HorizontalOptions="Center" />
+  <ContentPage.Content>
+    <ScrollView>
+      <StackLayout Spacing="20">
+        <StackLayout.Children>
+          <Label>
+            <Label.FormattedText>
+              <FormattedString>
+                <Span Text="MySelf" FontAttributes="Bold" FontSize="Medium" ForegroundColor="White"/>
+                <Span Text="bbbbb" />
+              </FormattedString>
+            </Label.FormattedText>
+          </Label>
+          <Label>
+            <Label.FormattedText>
+              <FormattedString>
+                <Span Text="aaaaa" FontAttributes="Bold" FontSize="Medium" ForegroundColor="Red"/>
+                <Span Text="bbbbb" />
+              </FormattedString>
+            </Label.FormattedText>
+          </Label>
+          <Label>
+            <Label.FormattedText>
+              <FormattedString>
+                <Span Text="aaaaa" FontAttributes="Bold" FontSize="Medium" ForegroundColor="Blue"/>
+                <Span Text="bbbbb" />
+              </FormattedString>
+            </Label.FormattedText>
+          </Label>
+          <Label>
+            <Label.FormattedText>
+              <FormattedString>
+                <Span Text="aaaaa" FontAttributes="Bold" FontSize="Medium" ForegroundColor="Green"/>
+                <Span Text="bbbbb" />
+              </FormattedString>
+            </Label.FormattedText>
+          </Label>
+          <Label>
+            <Label.FormattedText>
+              <FormattedString>
+                <Span Text="aaaaa" FontAttributes="Bold" FontSize="Medium" ForegroundColor="Aqua"/>
+                <Span Text="bbbbb" />
+              </FormattedString>
+            </Label.FormattedText>
+          </Label>
 
+          <Label Text="1" />
+          <Label Text="1" />
+          <Label Text="1" />
+          <Label Text="1" />
+          <Label Text="1" />
+          <Label Text="1" />
+          <Label Text="1" />
+          <Label Text="1" />
+          <Label Text="1" />
+          <Label Text="1" />
+          <Label Text="1" />
+          <Label Text="1" />
+          <Label Text="1" />
+          <Label Text="1" />
+          <Label Text="1" />
+          <Label Text="1" />
+          <Label Text="1" />
+          <Label Text="1" />
+          <Label Text="1" />
+          <Label Text="1" />
+          <Label Text="1" />
+          <Label Text="1" />
+          <Label Text="1" />
+          <Label Text="1" />
+        </StackLayout.Children>
+      </StackLayout>
+    </ScrollView>
+  </ContentPage.Content>
 </ContentPage>
